@@ -1,0 +1,12 @@
+POST localhost:8080/boardgames
+Content-Type: application/json
+
+{
+  "name": "Xia",
+  "minPlayers": 3,
+  "maxPlayers": 5
+}
+
+####
+
+GET localhost:8080/boardgames/2
